@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: darkcyan;
+}
+
+/*global*/
+
+.text1 {
+    text-align: center;
+}
+
+.logo {
+
+    float: right;
+    padding-right: 50px;
+
+}
+
+.container3{
+    padding-left: 200px;
+    text-align: left;
+}
+
+.table{
+    padding-left: 50px;
+}
+
+/*header**/
+
+.quote {
+    font-size: 20px;
+}
+
+header.quote {
+    float: right;
+
+
+}
+
+header {
+    padding-top: 50px;
+    min-height: 50px;
+    border-bottom:darkslategray 2px solid;
+    overflow: auto;
+    background-color:#ffffff;
+    font-size: 15px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration:none;
+     font-size:13px;
+     font-weight: bold;
+     text-transform:uppercase;
+     color: darkcyan;
+}
+
+header a:hover {
+    color: darkslategrey;
+    font-weight: bold;
+}
+header li {
+    font-size: 40px;
+    float: left;
+    display:inline;
+    word-spacing: 3px;
+    padding: 0 20px 0 20px;
+    
+}
+
+header #branding {
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding h1 {
+    margin: 0%;
+}
+
+
+header .highlight, header .current a {
+    color: darkslategray;
+}
+
+header nav {
+    float: left;
+    margin-top: 20px;
+}
+
+.aboutus {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact {
+    text-align: center;
+    
+}
+
+.service {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.services {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.services2 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* footer*/
+
+#footer p{
+    color: darkcyan;
+    text-align: center;
+    
+}
+
+@media (max-width: 798px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
